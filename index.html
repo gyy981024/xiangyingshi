@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>微软</title>
+	<link rel="stylesheet" href="css/resrt.css" type="text/css">
+    <link rel="stylesheet" href="css/phone.css" type="text/css">
+    <link rel="stylesheet" href="css/pad.css" type="text/css" media="(min-width:768px)">
+    <link rel="stylesheet" href="css/pc.css" type="text/css" media="(min-width:992px)">
+    <meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+</head>
+<body>
+	<div class="header clearfix cw">
+		<div class="hd_lf fl">
+			<img src="images/phone_logo.jpg" alt="" class="pad_hide">
+			<img src="images/pad_logo.jpg" alt="" class="phone_hide pad_show">
+		</div>
+		<div class="hd_rt fr">
+			<p class="pad_hide">
+				<a href="#">菜单</a>
+				<a href="#" class="tb tb1"></a>
+				<a href="#" class="tb"></a>
+			</p>
+			<div class="sousuo phone_hide pad_show">
+				<input type="text" class="sou">
+				<span class="tb"></span>
+			</div>
+		</div>
+	</div>
+	<div class="nav">
+		<ul>
+			<li id="shop">
+				<a href="###">购买</a>
+				<div class="xiala" id="xiala">
+					<p>下拉菜</p>
+					<p>下拉菜</p>
+					<p>下拉菜</p>
+				</div>
+			</li>
+			<li><a href="">产品</a></li>
+			<li><a href="">下载</a></li>
+			<li><a href="">支持</a></li>
+		</ul>
+	</div>
+	<div class="banner">
+		<img src="images/img1.png" alt="">
+		<div class="wz">
+			<p class="wz1">Surface</p>
+			<p class="wz2">了解能够取代您的笔记本电脑的平板电脑。Surface Pro 3。</p>
+			<p class="wz3">了解详情</p>
+		</div>
+	</div>
+	<div class="tp">
+		<ul>
+			<li>
+				<a href=""><img src="images/img2.png" alt=""></a>
+				<p class="wz"><a href="">以低廉的价格购买 Office 365 个人版。</a></p>
+			</li>
+			<li>
+				<a href=""><img src="images/img3.png" alt=""></a>
+				<p class="wz"><a href="">全新的Windows 现以问世</a></p>
+			</li>
+			<li>
+				<a href=""><img src="images/img4.png" alt=""></a>
+				<p class="wz"><a href="">4100 万像素，Nokia Lumia 1020，无可匹敌。</a></p>
+			</li>
+		</ul>
+	</div>
+	<script>
+		var oShop = document.getElementById('shop');
+		var oXiala = document.getElementById('xiala');
+		oShop.onclick = function () {
+			if(oXiala.style.display == 'block'){
+				oXiala.style.display = 'none';
+			}
+			else{
+				oXiala.style.display = 'block';
+			}
+		}
+	</script>
+	<div class="tubiao pc_hide">
+		<ul >
+			<li class="mb pad_hide">
+				<img src="images/tb1.jpg" alt="">
+				<p>Windows</p>
+			</li>
+			<li class="mb pad_hide">
+				<img src="images/tb2.jpg" alt="">
+				<p>Office</p>
+			</li>
+			<li class="mb pad_hide">
+				<img src="images/tb3.jpg" alt="">
+				<p>Surface</p>
+			</li>
+			<li class="pad_hide">
+				<img src="images/tb4.jpg" alt="">
+				<p>Windows
+					Phone
+				</p>
+			</li>
+			<li class="pad_hide">
+				<img src="images/tb5.jpg" alt="">
+				<p>Skype</p>
+			</li>
+			<p class="phone_hide pad_show">了解</p>
+			<li class="phone_hide pad_show"><a href="">Windows</a></li>
+			<li class="phone_hide pad_show"><a href="">Office</a></li>
+			<li class="phone_hide pad_show"><a href="">Surface</a></li>
+			<li class="phone_hide pad_show" style="width:140px;"><a href="">Windows Phone</a></li>
+			<li class="phone_hide pad_show"><a href="">Skype</a></li>
+		</ul>
+	</div>
+	<div class="content1 pad_hide">
+		<div class="c_c">
+			<div class="c_c_t">
+				<img src="images/img5.jpg" alt="">
+				<p class="w1">住建部与微软共探未来城市评估体系，
+					助力智慧竞争</p>
+			</div>
+			<p class="p1">2014年4月23日，北京——今天，首届“未来城市•智慧竞争”研讨会在北京顺利举行。研讨会由住房和城乡建设部与微软合作成立的智慧城市技术解决方案联合实验室主办，集中探讨未来城市的智慧竞争之道，为中国未来城市的发展指明方向。</p>
+		</div>
+		<p class="p2">关注微软</p>
+		<p class="p3">公司新闻</p>
+		<p class="p3">微软@社交媒体</p>
+	</div>
+	<div class="content2 pad_show phone_hide pc_hide">
+		<p><span style="width:94px;height:30px;">适用于家中</span><span style="background-color:#fff;color:black;">适用于工作地点</span></p>
+		<ul>
+			<li>
+				<img src="images/img6.png" alt="">
+				<p><a href="">获取微软官方商城购物免运费优惠。</a></p>
+			</li>
+			<li>
+				<img src="images/img7.png" alt="">
+				<p><a href="">下载为 Windows 量身定制的最新浏览器</a></p>
+			</li>
+			<li style="margin-bottom:0px;">
+				<img src="images/img8.png" alt="">
+				<p><a href="">在更多设备上使用 Office。现在还可以在iPad上使用。</a></p>
+			</li>
+		</ul>
+	</div>
+	<div class="content3 pc_show phone_hide pad_hide">
+		<ul class="ul1">
+			<p>了解</p>
+			<li>Windows</li>
+			<li>Office</li>
+			<li>Surface</li>
+			<li>Windows Phone</li>
+			<li>Skype</li>
+		</ul>
+		<div class="c3_r">
+			<p><span>适用于家中</span><span style="width:150px;background-color:#fff;color:black;">适用于工作地点</span></p>
+			<ul class="ul2">
+				<li style="margin-left:0px;">
+					<img src="images/img6.png" alt="">
+					<p>获取微软官方商城购物免运费优惠。</p>
+				</li>
+				<li>
+					<img src="images/img6.png" alt="">
+					<p>下载为 Windows 量身定制的最新浏览器</p>
+				</li>
+				<li>
+					<img src="images/img6.png" alt="">
+					<p>在更多设备上使用 Office。现在还可以在iPad上使用。</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="lie pc_show phone_hide pad_show">
+		<ul>
+			<p>下载</p>
+			<li>所有Windows下载</li>
+			<li>所有Office下载</li>
+			<li>微软中国下载中心</li>
+		</ul>
+		<ul>
+    		<p>安全与更新</p>
+			<li>Microsoft Update</li>
+			<li>微软安全软件</li>
+			<li>Microsoft 账户安全信息</li>
+		</ul>
+		<ul style="margin-right:0px;">
+			<p>支持</p>
+			<li>Windows XP 即将结束支持</li>
+			<li>Windows 帮助和操作方法</li>
+			<li>Office 帮助和操作方法</li>
+			<li>微软帮助与支持</li>
+		</ul>
+	</div>
+	<div class="guanzhu phone_hide pc_show pad_show">
+		<ul>
+			<p>关注微软</p>
+			<li>公司新闻</li>
+			<li>微软@社交媒体</li>
+		</ul>
+		<div class="gz_r">
+			<div class="gz_r_t">
+				<img src="images/img5.jpg" alt="" style="float:left;margin-top:5px;">
+				<p class="p1">住建部与微软共探未来城市评估体系，助力智慧竞争</p>
+				<p class="p2">2014年4月23日，北京——今天，首届“未来城市•智慧竞争”研讨会在北京顺利举行。研讨会由住房和城乡</p>
+			</div>
+			<p class="p3">建设部与微软合作成立的智慧城市技术解决方案联合实验室主办，集中探讨未来城市的智慧竞争之道，为中国未来城市的发展指明方向。</p>
+		</div>
+	</div>
+	<div class="qita">
+		<ul>
+			<p>其他微软站点</p>
+			<li>Windows</li>
+			<li>Office</li>
+			<li>Surface</li>
+			<li>Windows Phone</li>
+			<li>Nokia 设备</li>
+			<li>Skype</li>
+			<li>必应 Bing</li>
+			<li>微软官方商城</li>
+		</ul>
+		<ul>
+			<p>下载</p>
+			<li>微软中国下载中心</li>
+			<li>所有 Windows 下载</li>
+			<li>Office（Outlook、Excel和其他）</li>
+			<li>免费下载</li>
+			<li>Internet Explorer</li>
+			<li>所有Office下载</li>
+			<li>驱动程序（声音、打印机、USB和其他）</li>
+		</ul>
+		<ul class="phone_hide">
+			<p>支持</p>
+			<li>微软帮助与支持</li>
+			<li>微软安全软件</li>
+			<li>Microsoft Update：Service</li>
+			<li>Pack、修补程序等</li>
+			<li>Windows 帮助和操作方法</li>
+			<li>Office（Outlook、Excel和其他）</li>
+			<p>关于</p>
+			<li>关于微软</li>
+			<li>Microsoft 账户</li>
+			<li>招贤纳士</li>
+			<li>微软虚拟会议</li>
+			<li>订阅微软电子期刊</li>
+			<li>网站地图</li>
+		</ul>
+		<ul>
+			<p>热门资源</p>
+			<li>Windows Phone和智能电话</li>
+			<li>Microsoft Dynamics CRM</li>
+			<li>Windows软件</li>
+			<li>Office 培训</li>
+			<li>Pc</li>
+			<li>Windoes RT</li>
+			<li>Tablet</li>
+			<li>Microsoft Office academic</li>
+			<li>edition</li>
+			<li>Windows 应用</li>
+		</ul>
+	</div>
+	<p class="w1 phone_hide pc_show pad_hide"><span style="float:left;color:#1570A6;margin-left:13px;">中文-中国</span><span style="float:right;color:#616161;margin-right:20px;">Microsoft</span></p>
+	<p class="w3 pc_hide pad_show phone_show">中文-中国</p>
+	<p class="w4 pc_hide pad_show phone_show">Microsoft</p>
+	<p class="w2 phone_hide pc_show pad_show">京ICP备09042378号-6&nbsp;&nbsp;京公网安备11010802010597 
+	<span><a href="">与我们联系</a></span>
+	<span><a href="">隐私权声明</a></span>
+	<span><a href="">使用条款</a></span>
+	<span><a href="">商标</a></span>
+	<span style="margin-right:40px;"><a href="">与我们有关的广告信息</a></span>
+	&copy;2014&nbsp;Microsoft
+	</p>
+	   <p class="p2 phone_show pc_hide pad_hide">京ICP备09042378号-6</p>
+          <p class="p2 phone_show pc_hide pad_hide">京公网安备11010802010597</p>
+          <p class="p3 phone_show pc_hide pad_hide"><a href="">与我们练习<span></span>隐私权声明<span></span>使用条款</a></p>
+          <p class="p3 phone_show pc_hide pad_hide"><a href="">商标<span></span>有关我们的广告信息</a></p>
+          <p class="p4 phone_show pc_hide pad_hide">&copy;  2014 Microsoft</p>
+
+<!-- 
+	position: static;
+	float:none; -->
+
+
+</body>
+</html>
